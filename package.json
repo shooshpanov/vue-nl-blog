@@ -9,7 +9,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "node content/index.js && nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/vuetify": "0.5.5",
